@@ -1,24 +1,19 @@
-# Resume Analyzer
+# AI Resume Analyzer 
 
-A FastAPI web application that analyzes PDF/DOCX resumes and provides a score + feedback.
+FastAPI backend that uses OpenAI GPT-4 to analyze PDF/DOCX resumes and provide ATS score + improvement feedback.
 
-### **Features**
-- Upload PDF or DOCX resumes
-- Extracts text and checks for email, phone, education
-- Scores resume out of 100 based on completeness
-- Provides specific improvement feedback
+## Features
+-  Upload PDF/DOCX resume 
+-  GPT-4 powered analysis
+-  ATS compatibility score
+-  Skill gap suggestions + keyword optimization
 
-### **Tech Stack**
-- Python 3.11
-- FastAPI
-- PyPDF2, python-docx
+## Tech Stack
+FastAPI | Python | OpenAI API | PyPDF2 | Uvicorn
 
-### **How to Run**
-1. `python -m venv venv`
-2. `venv\Scripts\activate` 
-3. `pip install -r requirements.txt`
-4. `uvicorn main:app --reload`
-5. Open http://127.0.0.1:8000
+## Run Locally
+pip install -r requirements.txt
+uvicorn main:app --reload
 
-### **Author**
-Vishnu Dev V
+5. **Scroll down** → Commit message: `Update README with pro details`
+6. **Click green `Commit changes`**
